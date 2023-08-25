@@ -26,3 +26,6 @@ packages = find_packages(),
 install_requires = get_requirements('requirements.txt')
 
 )
+
+
+# -e . in the requirements.txt is used to automatically trigger the setup.py file
